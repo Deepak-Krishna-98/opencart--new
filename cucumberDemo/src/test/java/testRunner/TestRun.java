@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {".//features/LoginDDTExcel.feature"}, 
+@CucumberOptions(features= {".//features/Login.feature"}, 
       // features= {"@target/rerun.txt"},   
 glue={"stepDefinitions", "hooks"},
 plugin= {
